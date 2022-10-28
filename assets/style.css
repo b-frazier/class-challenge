@@ -22,3 +22,26 @@ header {
 h1 {
     font-size: 2rem;
 }
+
+.subtitle p {
+    height: 70px;
+    margin: 77px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    padding: 25px;
+}
+
+pre#code {
+    width: 300px;
+    margin: auto;
+    border: 3px solid var(--orange);
+    font-family: monospace;
+    padding: 20px;
+}
