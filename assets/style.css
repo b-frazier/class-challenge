@@ -1,5 +1,24 @@
+:root {
+    --yellow: #D2C832;
+    --orange: #C17F2E;
+    --tan: #C1AD95;
+}
+
 * {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-size: 1.15rem;
     margin: 0;
     padding: 0;
+    background-color: var(--tan);
+}
+
+header {  
+    padding: 50px 0;
+    /* background-color: var(--yellow); */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
 }
